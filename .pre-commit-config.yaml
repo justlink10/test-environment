@@ -1,0 +1,18 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: debug-statements
+-   repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+    - id: black
+      args: [--line-length=140]
+-   repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+    - id: flake8
+      additional_dependencies: [pep8-naming]
+      args: ["--select=F401,N801,N802,N803,N804,N805,N807"]
