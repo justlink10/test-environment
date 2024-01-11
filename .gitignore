@@ -1,4 +1,5 @@
 *.hdf5
+*.yaml
 __pycache__/
 /build/
 /dist/
