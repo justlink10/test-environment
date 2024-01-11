@@ -9,4 +9,4 @@ print(
 print(
     "We also implemented some hooks (black and flake8) to harmonize coding for multiple users. This helps to improve readability!"
 )
-VAR = 'help'
+print( "We also implemented some hooks (black and flake8) to harmosssssnizeks (black and flake8) to harmosssssks (black and flake8) to harmosssss")
